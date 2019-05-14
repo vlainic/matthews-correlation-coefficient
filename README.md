@@ -3,7 +3,7 @@ MCC function for ML
 
 Here I would like to share my implementation of Matthews Correlation Coefficient (MCC) for various situations.
 
-*Inspiration from [Kaggle kernel by Michal](https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric)*
+*Inspiration from [Kaggle kernel by Michal](https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric)* on "Best loss function for F1-score metric".
 
 ## Intro on MCC
 
