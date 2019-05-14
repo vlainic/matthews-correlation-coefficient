@@ -17,7 +17,7 @@ The most useful expression for computation was Eq.(8) from the original article 
 
 where N is the number of examples, \tilde{C_k} is the k*th* row of the confusion matrix C, \hat{C_l} the l*th* column of C, C^T is C transposed and Tr(C) is the trace of C.
 
-Note: if you only need MCC value to be computed use [sklearn.metrics.matthews_corrcoef](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html)!
+Note: if you only need MCC value to be computed use [sklearn.metrics.matthews_corrcoef](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) !!!
 
 ## binary_mcc_loss.py
 
