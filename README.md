@@ -29,4 +29,4 @@ Function that can be used as loss function for Keras training in the multi-class
 
 ## plot_mcc_vs_tresh.py
 
-Following that one can  precision/recall vs tresholds, I wanted to see how MCC behaves.
+Following the practice of plotting precision/recall vs tresholds, I wanted to see how MCC behaves.
