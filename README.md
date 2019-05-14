@@ -11,7 +11,7 @@ I encountered MCC while search for the ["best multi-class classification metric"
 
 [Wikipedia](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient#Multiclass_case) has very nice explanation of MCC, while at [stats.stackexchange](https://stats.stackexchange.com/questions/187768/matthews-correlation-coefficient-with-multi-class) you can find a very interesting discussion on the topic. Multi-class MCC is often called "R_K statistics" so I found [the whole page](http://rk.kvl.dk/introduction/index.html) devoted to it.
 
-The most useful for computation was Eq.(8) from the original article by [Gorodkin](https://www.sciencedirect.com/science/article/pii/S1476927104000799?via%3Dihub):
+The most useful expression for computation was Eq.(8) from the original article by [Gorodkin](https://www.sciencedirect.com/science/article/pii/S1476927104000799?via%3Dihub):
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=R_K&space;=&space;\frac{N\,&space;\mathrm{Tr}(C)&space;-&space;\sum_{kl}&space;\tilde{C_k}&space;\hat{C_l}}{\sqrt{N^2&space;-&space;\sum_{kl}&space;\tilde{C_k}&space;\hat{C^T_l}}\sqrt{N^2&space;-&space;\sum_{kl}&space;\tilde{C^T_k}&space;\hat{C_l}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_K&space;=&space;\frac{N\,&space;\mathrm{Tr}(C)&space;-&space;\sum_{kl}&space;\tilde{C_k}&space;\hat{C_l}}{\sqrt{N^2&space;-&space;\sum_{kl}&space;\tilde{C_k}&space;\hat{C^T_l}}\sqrt{N^2&space;-&space;\sum_{kl}&space;\tilde{C^T_k}&space;\hat{C_l}}}" title="R_K = \frac{N\, \mathrm{Tr}(C) - \sum_{kl} \tilde{C_k} \hat{C_l}}{\sqrt{N^2 - \sum_{kl} \tilde{C_k} \hat{C^T_l}}\sqrt{N^2 - \sum_{kl} \tilde{C^T_k} \hat{C_l}}}" /></a>
 
